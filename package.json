@@ -28,7 +28,7 @@
 			}
 		]
 	},
-	"publisher": "Matthias Kluth",
+	"publisher": "kluth",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/kluth/test-extractor"
