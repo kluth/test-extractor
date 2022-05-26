@@ -28,6 +28,7 @@
 			}
 		]
 	},
+	"publisher": "Matthias Kluth",
 	"scripts": {
 		"vscode:prepublish": "npm run compile",
 		"compile": "tsc -p ./",
