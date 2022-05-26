@@ -29,6 +29,13 @@
 		]
 	},
 	"publisher": "Matthias Kluth",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/kluth/test-extractor"
+	},
+	"bugs": {
+		"url": "https://github.com/kluth/test-extractor/issues"
+	},
 	"scripts": {
 		"vscode:prepublish": "npm run compile",
 		"compile": "tsc -p ./",
