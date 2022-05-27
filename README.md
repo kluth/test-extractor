@@ -17,6 +17,14 @@ Right now it only works with React components. So that could be a requirement.
 
 No configuration at the moment.
 
-### 1.0.0
+### 0.0.1
 
 Initial release of the test extractor
+
+### 0.0.2
+
+Errors
+
+### 0.0.3
+
+Bugfixes: better text extraction

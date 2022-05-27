@@ -2,7 +2,7 @@
 	"name": "test-extractor",
 	"displayName": "Test Extractor",
 	"description": "Extracts simple jest test skeletons from your sourcecode",
-	"version": "0.0.1",
+	"version": "0.0.3",
 	"author": "Matthias Kluth",
 	"engines": {
 		"vscode": "^1.67.0"
@@ -11,17 +11,26 @@
 		"Testing"
 	],
 	"activationEvents": [
+		"onCommand:test-extractor.extractTestFilesFramework",
 		"onCommand:test-extractor.extractTestFiles"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
 			{
+				"command": "test-extractor.extractTestFilesFramework",
+				"title": "Extract test files with framework"
+			},
+			{
 				"command": "test-extractor.extractTestFiles",
 				"title": "Extract test files"
 			}
 		],
 		"keybindings": [
+			{
+				"command": "test-extractor.extractTestFilesFramework",
+				"key": "ctrl+alt+f"
+			},
 			{
 				"command": "test-extractor.extractTestFiles",
 				"key": "ctrl+alt+e"
